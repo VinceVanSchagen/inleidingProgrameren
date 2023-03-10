@@ -1,0 +1,81 @@
+body{
+    background-color: #69120f;
+}
+img{
+    width: 17%;
+}
+#platenspeler{
+  width: 48%;
+}
+#album1{
+  position: absolute;
+  margin-left: 0%;
+}
+#album2{
+  position: absolute;
+  margin-left: 22%;
+}
+#album3{
+  position: absolute;
+  margin-left: 48%;
+}
+#lp{
+  width: 35%;
+  position: absolute;
+  left: 3%;
+  top: 1%;
+}
+#lp1{
+  position: absolute;
+  margin-left: 4%;
+}
+#lp2{
+  position: absolute;
+  margin-left: 26%;
+}
+#lp3{
+  position: absolute;
+  margin-left: 52%;
+}
+.afspelen{
+  animation: rotation 2s infinite linear;
+}
+.titel{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    font-size: 200%;
+    color: rgb(245, 170, 170);
+}
+.stukje{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    font-size: 150%;
+    color: white;
+}
+.text-open{
+    visibility: visible;
+    opacity: 1;
+}
+.bodychangeklassiek{
+  background-color: rgb(147, 152, 218);
+}
+.bodychangemetal{
+  background-color: rgb(24, 22, 22);
+}
+.bodychangekansas{
+  background-color: rgb(201, 136, 40);
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
